@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(149, 193, 250)
+}
+
+.MainHeader {
+color: black;
+}
+
+main article {
+    padding-top: none;
+    margin-right: 20px;
+    float: right;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none
+}
+
+.Bio {
+background-color: rgba(109, 171, 252, 0.897)
+}
