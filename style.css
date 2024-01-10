@@ -21,5 +21,22 @@ header nav ul {
 }
 
 .Bio {
-background-color: rgba(109, 171, 252, 0.897)
+background-color: rgba(109, 171, 252, 0.897);
+}
+
+.Bio img {
+    max-height: 200px;
+    display: inline-block;
+}
+
+.Image-Container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Image-Text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
