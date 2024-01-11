@@ -1,6 +1,18 @@
 body {
     background-color: rgb(149, 193, 250)
 }
+/*above shows the background color of the whole page*/
+
+.box {
+    width: 600px;
+    height: 150px;
+}
+/*above shows the sizing of the boxes*/
+
+.box-Bio {
+    background-color: rgba(109, 171, 252, 0.897);
+}
+/*above shows the background color of the box titled Bio*/
 
 .MainHeader {
 color: black;
@@ -20,9 +32,9 @@ header nav ul {
     list-style-type: none
 }
 
-.Bio {
+/* .Bio {
 background-color: rgba(109, 171, 252, 0.897);
-}
+} */
 
 .Bio img {
     max-height: 200px;
