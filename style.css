@@ -17,38 +17,17 @@ body {
 .MainHeader {
 color: black;
 }
+/*above shows the font color of the header*/
 
 main article {
     padding-top: none;
     margin-right: 20px;
     float: right;
 }
-
-header nav {
-    float: right;
-}
-
-header nav ul {
-    list-style-type: none
-}
-
-/* .Bio {
-background-color: rgba(109, 171, 252, 0.897);
-} */
+/*above shows the positioning of the buttons*/
 
 .Bio img {
     max-height: 200px;
     display: inline-block;
 }
-
-.Image-Container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.Image-Text {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
+/*above shows sizing of the main image*/
