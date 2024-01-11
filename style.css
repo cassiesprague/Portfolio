@@ -3,31 +3,66 @@ body {
 }
 /*above shows the background color of the whole page*/
 
-.box {
-    width: 600px;
-    height: 150px;
+header h1 {
+    margin: 20px;
+    padding-top: 10px;
 }
-/*above shows the sizing of the boxes*/
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li button {
+    margin-right: 25px;
+    font-weight: bold;
+    block-size: 25px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+}
 
 .box-Bio {
+    width: 600px;
+    height: 150px;
+    background-color: rgba(109, 171, 252, 0.897);
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+/*above shows the sizing and background color of the bio box*/
+
+.box-Work {
+    width: 600px;
+    height: 400px;
     background-color: rgba(109, 171, 252, 0.897);
 }
-/*above shows the background color of the box titled Bio*/
 
 .MainHeader {
 color: black;
 }
 /*above shows the font color of the header*/
 
-main article {
-    padding-top: none;
+header article {
+    padding-top: none; */
     margin-right: 20px;
     float: right;
 }
 /*above shows the positioning of the buttons*/
 
-.Bio img {
-    max-height: 200px;
+.box-Work img {
+    max-height: 250px;
     display: inline-block;
 }
-/*above shows sizing of the main image*/
+/*above shows sizing of my work image*/
+
+.image-padding {
+    padding: 20px;
+}
+/*above shows the padding between the images*/
+
+
+
