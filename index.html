@@ -9,46 +9,21 @@
 </head>
 
 <body>
-    <header class="MainHeader">
-        <div class="Title">
-            <h1>Cassie Sprague Portfolio</h1>
-        </div>
-        <section id="AboutMe"></section>
-        <section id="MyWork"></section>
-        <section id="ContactInformation"></section>
-        <article>
-            <nav>
-                <ul>
-                    <li><a href="#AboutMe"> <button>About Me</button></a></li>
-                    <li><a href="#MyWork"> <button>My Work</button></a></li>
-                    <li><a href="#ContactInformation"> <button>Contact Info</button></a></li>
-                </ul>
-                </nav>
-        </article>
+    <header>
+        <h1>Cassie Sprague Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#AboutMe"> <button>About Me</button></a></li>
+                <li><a href="#MyWork"> <button>My Work</button></a></li>
+                <li><a href="#ContactInformation"> <button>Contact Info</button></a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div class="HeaderPicture">
-        </div>
-        <!-- <section id="AboutMe"></section>
-        <section id="MyWork"></section>
-        <section id="ContactInformation"></section>
-        <article>
-            <div>
-                <a href="#AboutMe"> <button>About Me</button></a>
-                <a href="#MyWork"> <button>My Work</button></a>
-                <a href="#ContactInformation"> <button>Contact Info</button></a>
-            </div>
-        </article> -->
-    </main>
-
-    <section>
-        <aside>
-        <img src="Assets/Me Pic.jpg" style="width:400px; height:400px;">
-        </aside>
-
-        <article>
-            <section id="About-Me" class="box box-Bio">
+        <section id="About-Me" class="box-Bio">
+            <img src="Assets/Me Pic.jpg" style="width:400px; height:400px;"> 
+            <div class="float-right">
             <h2>About Me</h2>
             <p>
                 I am 23 years old and live in Indiana. I have a brother named Nick and a sister-in-law <br>
@@ -56,36 +31,37 @@
                 a coding bootcamp at The University of Texas at Austin and working part-time so I can <br>
                 focus on the class. When I am not working or studying, I enjoy traveling and playing ball <br>
                 with my dog.
-            </p>  
-            </section>
-        </article>
-
-        <article>
-            <section id="My-Work" class="box box-Work">
-            <h2>My Work</h2>
-            <p>Click below to see Code Refactor!</p>
-            <a href="https://cassiesprague.github.io/Code-Refactor/" target="_blank"> <img class= "image-padding" src="c:\Users\cassi\bootcamp\CHALLENGES\Portfolio\Assets\image.png" alt="Code-Refactor"></a> 
+            </p>
             </div>
+        </section>
+
+            <section id="My-Work" class="box-Bio">
+                <h2>My Work</h2>
+                <p>Click below to see Code Refactor!</p>
+                <ul class="My-Work">
+                    <li>
+                        <a href="https://cassiesprague.github.io/Code-Refactor/" target="_blank"> <img class="image-padding"
+                            src="c:\Users\cassi\bootcamp\CHALLENGES\Portfolio\Assets\image.png" alt="Code-Refactor"></a>
+                    </li>
+                    <li>
+                        <img class="image-padding" src="C:\Users\cassi\bootcamp\CHALLENGES\Portfolio\Assets\ComingSoon.jpg" alt="Coming-Soon" >
+                    </li>
+                    <li>
+                        <img class="image-padding" src="C:\Users\cassi\bootcamp\CHALLENGES\Portfolio\Assets\ComingSoon.jpg" alt="Coming-Soon" >
+                    </li>
+                </ul>
+                </div>
             </section>
-        </article>
 
-            <!-- <section>
-                <img class="image-padding" src="C:\Users\cassi\bootcamp\CHALLENGES\Portfolio\Assets\ComingSoon.jpg" alt="Coming-Soon" >
-            </section> -->
-
-        <article>
-            <section id="Contact-Info" class="Bio">
-            <h2>Contact Info</h2>
-            <ul class="ContactInfo">
-                <li>(812)581-0846</li>
-                <li><a href="#Email">cassie.sprague.18@gmail.com</a></li>
-                <li><a href="https://github.com/cassiesprague">GitHub Profile</a></li>
-            </ul>
+            <section id="Contact-Info" class="box-Bio">
+                <h2>Contact Info</h2>
+                <ul class="ContactInfo">
+                    <li>(812)581-0846</li>
+                    <li><a href="#Email">cassie.sprague.18@gmail.com</a></li>
+                    <li><a href="https://github.com/cassiesprague">GitHub Profile</a></li>
+                </ul>
             </section>
-        </article>
-
-    </section>
-
+    </main>
 </body>
 
 </html>

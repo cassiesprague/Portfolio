@@ -1,15 +1,53 @@
 body {
     background-color: rgb(149, 193, 250)
 }
-/*above shows the background color of the whole page*/
 
-header h1 {
+.box-Bio {
+    /* width: 600px; */
+    min-height: 400px;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(109, 171, 252, 0.897); 
+}
+
+.box-Bio img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.float-right {
+    float: right;
+    margin: 25px;
+}
+
+.box-Work {
+    min-height: 400px;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(109, 171, 252, 0.897); 
+}
+
+.My-Work {
+    list-style-type: none;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.My-Work li {
+    display: inline-block;
+    margin: 60px;
+}
+
+
+
+/* header h1 {
     margin: 20px;
     padding-top: 10px;
 }
 
 header nav ul {
     list-style-type: none;
+    display: flex
 }
 
 header nav ul li {
@@ -30,39 +68,34 @@ aside {
 .box-Bio {
     width: 600px;
     height: 150px;
-    background-color: rgba(109, 171, 252, 0.897);
+    background-color: rgba(109, 171, 252, 0.897); */
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-}
+/* } */
 /*above shows the sizing and background color of the bio box*/
 
-.box-Work {
+/* .box-Work {
     width: 600px;
     height: 400px;
     background-color: rgba(109, 171, 252, 0.897);
 }
 
-.MainHeader {
-color: black;
-}
-/*above shows the font color of the header*/
-
 header article {
     padding-top: none; */
-    margin-right: 20px;
+    /* margin-right: 20px;
     float: right;
-}
+} */ */
 /*above shows the positioning of the buttons*/
 
-.box-Work img {
+/* .box-Work img {
     max-height: 250px;
     display: inline-block;
-}
+} */
 /*above shows sizing of my work image*/
 
-.image-padding {
+/* .image-padding {
     padding: 20px;
 }
-/*above shows the padding between the images*/
+above shows the padding between the images */
 
 
 
